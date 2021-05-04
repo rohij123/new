@@ -1,0 +1,147 @@
+h3{font-size: 30px}
+h1{font-size: 60px
+}
+h2{
+	color:red;
+	font-size: 110px;
+	font-style: italic;
+	font-family: impact
+}
+
+.go{
+	width:800px;
+	height:300px;
+	background-color:red;
+	
+	background: linear-gradient(to top,red,green,blue,yellow)
+}
+
+
+.aa{
+	width:800px;
+	height:200px;
+	background-color:red;
+	
+    background:radial-gradient(red 10%, green 40%,yellow 50%)
+	 
+}
+
+
+.abb{
+	width:800px;
+	height:200px;
+	background-color:red;
+	
+	animation-name:komola;
+	animation-duration:3s;
+	animation-iteration-count:70;
+	
+	position:relative;
+	animation-direction:alternate;
+	
+
+}
+@keyframes komola{
+	
+	 from{left:0px}
+     to{left:700px}
+	 
+	 
+	 from{background:blue}
+	 to{background:green; border-radius:60%}
+	 
+	 
+	 0%{left:0;top:0}
+			25%{left:200px;top:0}
+			50%{left:200px;top:200px}
+			75%{left:0;top:200px}
+			100%{left:0;top:0}
+	
+}
+
+
+
+body {
+	background-image: url("rohij00.jpg");
+}
+
+ #am {color:pink}
+ 
+ 
+.mm{
+	 background-color:pink;
+	 width:650px;
+	 height:250px;
+	 margin-top:30px;
+	 margin-bottom:50px;
+	 margin-left:50px;
+	 
+	 padding:50px;
+	 
+	 border:8px solid green;
+	 overflow:scroll;
+	 
+ }
+ .mm:hover{
+	 width:800px;
+	 height:450px;
+	background-color:pink;
+
+ }
+ 
+ 
+ .kathal{
+	 border:10px solid red;
+	 width:800px;
+	 height:250px;
+	 
+	 overflow:scroll
+ }
+ 
+ .mango{
+	 width:600px;
+	 height:200px;
+	 background-color:red;
+	 transition:background-color 5s, width 3s
+ }
+ .mango:hover{
+	 width:800px;
+	 height:400px;
+	background-color:pink;
+     transform:skewx(350deg);
+ }
+ 
+ 
+ .nn{
+	 width:300px;
+	 height:200px;
+	 background-color:blue;
+ }
+ .nn:hover{
+	 width:600px;
+	 height:300px;
+	 background-color:blue;
+	 
+	  transform:rotate(20deg);
+	  transition:all 8s;
+ }
+ 
+ 
+ 
+ #menu li{
+	 display:inline;
+	 
+ }
+ #menu li a{
+	 color:white;
+	 text-decoration:none;
+	 background:black;
+	 padding:20px;
+	 
+ }
+ 
+ #menu li a:hover{
+	 background:red;
+ }
+ 
+ 
